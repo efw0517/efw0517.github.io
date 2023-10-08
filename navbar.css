@@ -1,0 +1,28 @@
+.tester {
+  font-size: 20px;
+  background-color: #75d6a4;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+
+.tester a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.tester :hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.icon-position {
+  position: relative;
+  top: 10px;
+  right: 10px;
+}
+
+.text-position {
+  position: relative;
+  bottom: 15px;
+}

@@ -1,0 +1,29 @@
+.navbar-position {
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+h1 {
+  position: relative;
+  top: 200px;
+}
+
+.my-picture {
+  position: relative;
+  float: right;
+}
+
+.copyright {
+  position: relative;
+  top: 250px;
+}
+
+.main-text {
+  position: relative;
+  top: 200px;
+}
+
+.progress-bar {
+  position: relative;
+  top: 400px;
+}
