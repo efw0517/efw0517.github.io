@@ -1,7 +1,14 @@
+body {
+  border: 1px solid orange;
+}
 h1,
 h2 {
-  margin: 0;
+  margin-top: 5px;
   text-align: center;
+  border: 1px solid orange;
+  padding: 5xp;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .image-grid {
@@ -39,9 +46,12 @@ h2 {
 .button-dimensions-1 {
   width: 200px;
   height: 50px;
+  border: 1px solid orange;
+  margin-bottom: 20px;
 }
 .button-dimensions-2 {
   width: 250px;
   height: 20px;
-  background-color: lightblue;
+  background-color: rgb(133, 133, 247);
+  color: white;
 }
