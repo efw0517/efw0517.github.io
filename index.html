@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>
+        Welcome to the Interactive ABCS of CSS Technology Learning Website
+      </h1>
+      <h2>
+        Click on the buttons below to reveal and learn the CSS technology
+        features of the corresponding letters
+      </h2>
+    </div>
+
+    <div class="image-grid">
+      <img
+        src="../img/css-letter-a.png"
+        alt="aspect ratio"
+        class="image-visibility image-a"
+      />
+      <img
+        src="../img/css-letter-b.png"
+        alt="border"
+        class="image-visibility image-b"
+      />
+      <img
+        src="../img/css-letter-c.png"
+        alt="colors"
+        class="image-visibility image-c"
+      />
+    </div>
+    <div class="button-grid-2">
+      <button class="button-dimensions-2 button-visibility" id="button-hide-a">
+        Hide Result
+      </button>
+      <button class="button-dimensions-2 button-visibility" id="button-hide-b">
+        Hide Result
+      </button>
+      <button class="button-dimensions-2 button-visibility" id="button-hide-c">
+        Hide Result
+      </button>
+    </div>
+    <div class="button-grid-1">
+      <button class="button-dimensions-1" data-target="image-a">A</button>
+      <button class="button-dimensions-1" data-target="image-b">B</button>
+      <button class="button-dimensions-1" data-target="image-c">C</button>
+    </div>
+  </body>
+</html>

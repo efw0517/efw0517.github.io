@@ -1,0 +1,47 @@
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+  margin-top: 200px;
+}
+.image-visibility {
+  visibility: hidden;
+}
+
+.button-visibility {
+  visibility: hidden;
+}
+
+.button-grid-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-content: center;
+  margin-top: 100px;
+}
+.button-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.button-dimensions-1 {
+  width: 200px;
+  height: 50px;
+}
+.button-dimensions-2 {
+  width: 250px;
+  height: 20px;
+  background-color: lightblue;
+}
