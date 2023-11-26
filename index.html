@@ -3,53 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel</title>
+    <title>Inclusive Browsing Aid</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
   </head>
   <body>
+    <div><h1>Inclusive Browsing Aid</h1></div>
     <div>
-      <h1>
-        Welcome to the Interactive ABCS of CSS Technology Learning Website
-      </h1>
-      <h2>
-        Click on the buttons below to reveal and learn the CSS technology
-        features of the corresponding letters
-      </h2>
+      <p>
+        The ADA has standards that web designers can follow to ensure that their
+        websites are accessible by people with disabilities. However, less than
+        2% of all websites follow these standards to their fullest. Therefore,
+        the goal of the Inclusive Browsing Aid is to allow people who may need
+        the extra assistance to browse the web more easily. Below is an
+        explanation of the plugin's features, and you can even test some of the
+        features on this page if you want! There's even an image below for you
+        to test the "Image Captions" feature on!
+      </p>
     </div>
-
-    <div class="image-grid">
-      <img
-        src="../img/css-letter-a.png"
-        alt="aspect ratio"
-        class="image-visibility image-a"
-      />
-      <img
-        src="../img/css-letter-b.png"
-        alt="border"
-        class="image-visibility image-b"
-      />
-      <img
-        src="../img/css-letter-c.png"
-        alt="colors"
-        class="image-visibility image-c"
-      />
+    <div>
+      <ul style="list-style-type: disc">
+        <li>
+          Seizure Safety: this feature allows users to disable a website's
+          flashing colors to prevent seizures.
+        </li>
+        <li>
+          Bionic Reading: studies have shown that bolding the first few letters
+          of every word helps people with ADHD follow along with text better.
+          So, this feature adjusts the text on a page to be compatible with
+          Bionic Reading standards.
+        </li>
+        <li>
+          Color Contrast: depending on the color pallet of a page, color blind
+          people may have a hard time deciphering what's on the page. This
+          feature makes it so pages have more compatible color pallets.
+        </li>
+        <li>
+          Accessible Font: this feature allows users to change the font and font
+          size on a page to be more universally readable
+        </li>
+        <li>
+          Image Captions: this feature adds captions to images on a web page so
+          everyone can tell what the images are supposed to be
+        </li>
+        <li>
+          Text to Speech: this feature, when enabled, allows uers who may have a
+          hard time reading to highlight text on the page with their mouse.
+          After a few seconds, the text will be read out loud.
+        </li>
+        <li>
+          Keyboard Navigation: this feature allows users to navigate a web page
+          using only their keyboard.
+        </li>
+      </ul>
     </div>
-    <div class="button-grid-2">
-      <button class="button-dimensions-2 button-visibility" id="button-hide-a">
-        Hide Result
-      </button>
-      <button class="button-dimensions-2 button-visibility" id="button-hide-b">
-        Hide Result
-      </button>
-      <button class="button-dimensions-2 button-visibility" id="button-hide-c">
-        Hide Result
-      </button>
-    </div>
-    <div class="button-grid-1">
-      <button class="button-dimensions-1" data-target="image-a">A</button>
-      <button class="button-dimensions-1" data-target="image-b">B</button>
-      <button class="button-dimensions-1" data-target="image-c">C</button>
+    <div class="thumbs-up">
+      <img
+        src="thumbs up.png"
+        alt="This image is a thumbs up, an indication that you've successfully used the Image Caption feature!"
+        width="100"
+        height="100"
+      />
     </div>
   </body>
 </html>

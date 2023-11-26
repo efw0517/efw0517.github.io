@@ -1,57 +1,28 @@
-body {
-  border: 1px solid orange;
-}
-h1,
-h2 {
-  margin-top: 5px;
+h1 {
+  color: #d23370;
+  font-weight: bold;
+  font-size: 100px;
   text-align: center;
-  border: 1px solid orange;
-  padding: 5xp;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  justify-items: center;
-  margin-top: 200px;
-}
-.image-visibility {
-  visibility: hidden;
+body {
+  background-color: #253d73;
 }
 
-.button-visibility {
-  visibility: hidden;
+p {
+  color: #d23370;
+  font-size: 30px;
+  margin-bottom: 70px;
 }
 
-.button-grid-1 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  justify-items: center;
-  align-content: center;
-  margin-top: 100px;
-}
-.button-grid-2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  justify-items: center;
-  align-content: center;
-  margin-top: 10px;
+li {
+  color: #d23370;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
-.button-dimensions-1 {
-  width: 200px;
-  height: 50px;
-  border: 1px solid orange;
-  margin-bottom: 20px;
-}
-.button-dimensions-2 {
-  width: 250px;
-  height: 20px;
-  background-color: rgb(133, 133, 247);
-  color: white;
+.thumbs-up {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
